@@ -120,6 +120,7 @@ public class Client extends JFrame {
                 annualInterestRate.setText(null);
                 numberOfYears.setText(null);
                 loanAmount.setText(null);
+                System.out.println("testing");
             }
         });
         btnClear.setFont(new Font("Tahoma", Font.PLAIN, 14));
